@@ -3,7 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 body {
     background-color: #f5f7fa;
     padding: 40px 20px;
@@ -126,6 +129,10 @@ margin-bottom: 65px;
     color: #595959;
     font-size: 14px;
     font-weight: 400;
+    text-decoration: none;
+}
+.projects-link:hover {
+    color: #ff7011;
 }
 .tech-name {
     color: #595959;
@@ -184,6 +191,9 @@ margin-bottom: 65px;
     letter-spacing: 0.48px;
     margin-bottom: 18px;
 }
+.abot-me-title.course{
+    margin-top: 15px;
+}
 .education-curs {
     color: #000000;
     font-size: 14px;
@@ -193,4 +203,36 @@ margin-bottom: 65px;
     line-height: 24px;
     letter-spacing: 0.42px;
     margin-bottom: 15px;
+}
+.abot-me-languages {
+    font-size: 22px;
+    font-weight: 700;
+    line-height:24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.language {
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    margin-bottom: 18px;
+}
+.language-level {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-bottom: 15px;
+}
+.languages {
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+
 }
